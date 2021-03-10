@@ -1,0 +1,49 @@
+@import url(./__des/app__des.css);
+@import url(./__img/app__img.css);
+
+.app {
+  display: flex;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 424px) {
+  .app:nth-of-type(1) {
+    padding-top: 0px;
+  }
+  .app:last-of-type {
+    padding-bottom: 0px;
+  }
+
+  .app:nth-child(even) .app__img {
+    order: 1;
+    margin-right: 18px;
+  }
+
+  .app:nth-child(odd) .app__img {
+    margin-right: 18px;
+  }
+  .app {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .app {
+    font-size: 14px;
+    line-height: 21px;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .app {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

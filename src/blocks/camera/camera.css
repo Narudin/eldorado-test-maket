@@ -1,0 +1,13 @@
+@import url(__image/camera__image.css);
+@import url(__item-des/camera__item-des.css);
+@import url(__item-img/camera__item-img.css);
+@import url(__item/camera__item.css);
+@import url(__items/camera__items.css);
+@import url(__content/camera__content.css);
+@import url(__title/camera__title.css);
+
+@media screen and (min-width: 992px) {
+  .camera {
+    padding-bottom: 58px;
+  }
+}

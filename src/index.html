@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eldorado</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__content container">
+        <div class="header__logos">
+          <img
+            class="header__logo"
+            src="<%=require('./images/logo_eld.svg')%>"
+            alt="eld"
+          />
+          <img
+            class="header__logo"
+            src="<%=require('./images/logo_mv.svg')%>"
+            alt="mv"
+          />
+        </div>
+        <p class="header__des">Название курса в одну строку</p>
+        <img src="<%=require('./images/menu.svg')%>" alt="menu" />
+      </div>
+    </header>
+    <!--header-->
+
+    <main class="main">
+      <div class="page-subtitle container">
+        <p>Samsung Galaxy S10</p>
+      </div>
+
+      <div class="page-title container">
+        <h1 class="">Еще больше возможностей</h1>
+      </div>
+
+      <article class="design container">
+        <h2 class="title">Новый дизайн</h2>
+        <div class="cards-container">
+          <div class="card card_bg-black">
+            <picture class="image-container">
+              <source
+              srcset="<%=require('./images/bg-black-front-md.png')%>"
+              media="(min-width: 1200px)"
+            />
+              <source
+                srcset="<%=require('./images/bg-black-front-sm.png')%>"
+                media="(min-width: 992px)"
+              />
+              <source
+                srcset="<%=require('./images/bg-black-front-big.png')%>"
+                media="(min-width: 719px)"
+              />
+              <img
+                class="card__image"
+                src="<%=require('./images/bg-black-front-md.png')%>"
+                alt="phone-image"
+              />
+            </picture>
+            <p class="card__des">
+              Абсолютно новый Infinity-O экран — на передней стороне смартфона
+              нет ничего, кроме огромного экрана и фронтальной камеры.
+            </p>
+          </div>
+          <!-- card -->
+
+          <div class="small-cards-container">
+            <div class="card card_size-small">
+              <img
+                class="card__image"
+                src="<%=require('./images/colours.svg')%>"
+                alt="phone-image"
+              />
+              <p class="card__des">
+                Смартфоны доступны в 4х стильных цветах: Перламутр, Аквамарин,
+                Оникс и Цитрус (для S10e).
+              </p>
+            </div>
+            <!-- card -->
+
+            <div class="card card_size-small">
+              <img
+                class="card__image"
+                src="<%=require('./images/gorilla.svg')%>"
+                alt="phone-image"
+              />
+              <p class="card__des">
+                В моделях S10 и S10+ установлены защитные стекла нового
+                поколения – Gorilla Glass 6.
+              </p>
+            </div>
+            <!-- card -->
+          </div>
+          <!-- small-cards-container -->
+
+          <div class="card">
+            <div class="image-container">
+              <img
+                class="card__image"
+                src="<%=require('./images/white-bg-back.jpg')%>"
+                alt="phone-image"
+              />
+            </div>
+            <p class="card__des">
+              Для любителей роскоши, модель S10+ будет выпускаться в
+              керамическом корпусе черного и белого цветов.
+            </p>
+          </div>
+          <!-- card -->
+        </div>
+        <!-- cards-container -->
+      </article>
+      <!-- design -->
+
+      <article class="camera">
+        <div class="container">
+          <h2 class="title camera__title">Съемка видео</h2>
+        </div>
+        <div class="camera__content">
+          <img
+            src="<%=require('./images/black-bg-albom.png')%>"
+            alt="phone"
+            class="camera__image"
+          />
+
+          <div class="camera__items container">
+            <div class="camera__item">
+              <img
+                class="camera__item-img"
+                src="<%=require('./images/play-quality.svg')%>"
+                alt="ico"
+              />
+              <p class="camera__item-des">
+                Отличное качество съемки новых поколениесмартфонов Samsung
+                позволит создать и смотреть праздники, семейные торжества и
+                памятные моменты на огромном экране, с яркими, живыми цветами и
+                прекрасной детализацией.
+              </p>
+            </div>
+            <!-- camera__item -->
+
+            <div class="camera__item">
+              <img
+                class="camera__item-img"
+                src="<%=require('./images/stabl.svg')%>"
+                alt="ico"
+              />
+              <p class="camera__item-des">
+                Дополнительная система стабилизации сделает видеоролики плавными
+                и красивыми.
+              </p>
+            </div>
+            <!-- camera__item -->
+
+            <div class="camera__item">
+              <img
+                class="camera__item-img"
+                src="<%=require('./images/delayed.svg')%>"
+                alt="ico"
+              />
+              <p class="camera__item-des">
+                Сверхзамедленная съемка (960 кадров в секунду) теперь в 2 раза
+                дольше. Камера в S10 способна распознать самое стремительное
+                движение, такое как языки пламени, брызги воды, дым из под колес
+                спорткара.
+              </p>
+            </div>
+            <!-- camera__item -->
+          </div>
+          <!--camera__items-->
+        </div>
+        <!-- camera__content -->
+      </article>
+      <article class="accessories container">
+        <h2 class="title">Аксессуары</h2>
+        <div class="cards-container">
+          <div class="card">
+            <div class="image-container">
+              <img
+                class="card__image"
+                src="<%=require('./images/accessories-1.jpg')%>"
+                alt="phone-image"
+              />
+            </div>
+            <p class="card__des">
+              Обширный ассортимент чехлов лля каждой модели. Цветовая гамма,
+              отличное качество, премиальные материалы и дополнительные
+              возможности призваны удовлетворить даже самый притязательный вкус.
+            </p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <div class="image-container">
+              <img
+                class="card__image"
+                src="<%=require('./images/accessories-2.jpg')%>"
+                alt="phone-image"
+              />
+            </div>
+            <p class="card__des">
+              Обширный ассортимент чехлов лля каждой модели. Цветовая гамма,
+              отличное качество, премиальные материалы и дополнительные
+              возможности призваны удовлетворить даже самый притязательный вкус.
+            </p>
+          </div>
+          <!-- card -->
+          <div class="small-cards-container">
+            <div class="card card_size-small">
+              <span class="card__border-line"></span>
+              <p class="card__des">
+                Galaxy S10+ в режиме Dex поддерживает широкоформатные мониторы.
+                Мощный смартфон превращается в мощный десктоп.
+              </p>
+            </div>
+            <!-- cards -->
+            <div class="card card_size-small">
+              <span class="card__border-line"></span>
+              <p class="card__des">
+                Смартфон S10 сразу укомплектован защитной пленкой.
+              </p>
+            </div>
+          </div>
+          <!-- small-cards-container -->
+        </div>
+        <!-- cards-container -->
+      </article>
+      <!-- accessories -->
+      <article class="apps container">
+        <h2 class="title">Приложения и сервисы Samsung</h2>
+        <div class="apps-container">
+          <div class="app">
+            <img
+              class="app__img"
+              src="<%=require('./images/switch.svg')%>"
+              alt="ico"
+            />
+            <p class="app__des">
+              Благодаря приложению Smart Switch можно перенести информацию со
+              старого смартфона на новый.
+            </p>
+          </div>
+          <!-- app -->
+          <div class="app">
+            <img
+              class="app__img"
+              src="<%=require('./images/health.svg')%>"
+              alt="ico"
+            />
+            <p class="app__des">
+              Приложение Samsung Health помогает контролировать физическую
+              активность и вести дневник питания.
+            </p>
+          </div>
+          <!-- app -->
+          <div class="app">
+            <img
+              class="app__img"
+              src="<%=require('./images/bixby.svg')%>"
+              alt="ico"
+            />
+            <p class="app__des">
+              Интеллектуальный помощник Bixby обеспечит быстрый доступ к
+              переводчику, поиску в Интернете, покупкам и многому другому.
+            </p>
+          </div>
+          <!-- app -->
+          <div class="app">
+            <img
+              class="app__img"
+              src="<%=require('./images/pay.svg')%>"
+              alt="ico"
+            />
+            <p class="app__des">
+              Приложение Samsung Pay дает возможность оплачивать свои покупки
+              при помощи смартфона.
+            </p>
+          </div>
+          <!-- app -->
+          <div class="app">
+            <img
+              class="app__img"
+              src="<%=require('./images/smart.svg')%>"
+              alt="ico"
+            />
+            <p class="app__des">
+              Благодаря приложению Smart Things можно управлять всеми
+              смарт-устройствами дома.
+            </p>
+          </div>
+          <!-- app -->
+        </div>
+        <!-- apps- container -->
+      </article>
+      <!-- apps -->
+    </main>
+  </body>
+</html>

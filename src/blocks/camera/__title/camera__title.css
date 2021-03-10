@@ -1,0 +1,15 @@
+@media screen and (min-width: 992px) {
+  .camera {
+    padding-bottom: 58px;
+  }
+  .camera__title::after {
+    content: "Сканер отпечатка в экране";
+    text-indent: 0;
+    display: block;
+    line-height: initial; 
+  }
+  .camera__title {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+}

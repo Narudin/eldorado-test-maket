@@ -1,0 +1,21 @@
+@import url("./__logos/header__logos.css");
+@import url("./__logo/header__logo.css");
+@import url("./__des/header__des.css");
+@import url("./__content/header__content.css");
+
+.header {
+  border-bottom: 1px solid #efefef;
+  
+}
+
+@media screen and (min-width: 590px) {
+  .header::after {
+    content: "";
+    background: #D70E2A;;
+    height: 3px;
+    width: 20.7vw;
+    max-width: 300px;
+    display: block;
+  }
+}
+

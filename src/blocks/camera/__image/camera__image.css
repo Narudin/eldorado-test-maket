@@ -1,0 +1,25 @@
+.camera__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 419px) {
+  .camera__image {
+    margin: 0 auto;
+    width: 90%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 619px) {
+  .camera__image {
+    padding-left: 25px;
+    width: 45.14%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .camera__image {
+    width: 49.14%;
+  }
+}

@@ -1,0 +1,21 @@
+.small-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 339px) {
+  .small-cards-container {
+    order: 1;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .small-cards-container {
+    order: 1;
+    justify-content: space-around;
+    width: 50%;
+  }
+}

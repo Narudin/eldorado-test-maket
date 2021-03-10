@@ -1,0 +1,22 @@
+.apps-container .app:last-of-type {
+  border: none;
+}
+
+.apps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.apps-container:after {
+  content: "";
+  flex: 1 1 100%;
+  max-width: 32%;
+}
+
+@media screen and (min-width: 425px) {
+  .apps-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

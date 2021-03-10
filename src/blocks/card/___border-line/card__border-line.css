@@ -1,0 +1,23 @@
+.card__border-line {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc9c9;
+}
+
+.card__border-line::before {
+  content: "";
+  width: 50px;
+  display: block;
+  height: 1.5px;
+  position: absolute;
+  top: -0.25px;
+  background: #000;
+}
+
+@media screen and (min-width: 719px) {
+  .card__border-line::before {
+    height: 0.5px;
+    top: -0.5px;
+  }
+}

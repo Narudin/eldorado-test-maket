@@ -1,0 +1,27 @@
+.camera__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  padding-top: 31px;
+}
+
+@media screen and (min-width: 719px) {
+  .camera__item {
+    width: 88.421%;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 0px;
+    margin-bottom: 26px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .camera__item {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

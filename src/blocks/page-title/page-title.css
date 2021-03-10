@@ -1,0 +1,30 @@
+.page-title {
+  display: block;
+}
+
+.page-title h1 {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 719px) {
+  .page-title h1 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}

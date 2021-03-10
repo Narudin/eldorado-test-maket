@@ -1,0 +1,16 @@
+.header__des {
+  display: block;
+  align-self: center;
+  margin-right: 42%;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 590px) {
+  .header__des {
+    display: none;
+  }
+}

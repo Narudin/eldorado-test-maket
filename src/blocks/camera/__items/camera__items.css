@@ -1,0 +1,9 @@
+.camera__items {
+  padding-bottom: 70px;
+}
+
+@media screen and (min-width: 719px) {
+  .camera__items {
+    padding-top: 0px;
+  }
+}

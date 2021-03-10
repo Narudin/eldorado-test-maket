@@ -1,0 +1,59 @@
+@import url(__image/card__image.css);
+@import url(__des/card__des.css);
+@import url(___border-line/card__border-line.css);
+
+.card {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 40px;
+  position: relative;
+}
+/* модификатор */
+.card_bg-black {
+  background: #171717;
+  font-weight: 400;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 15px 25px;
+}
+
+@media screen and (min-width: 339px) {
+  .card {
+    width: 40.973vw;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* модификатор */
+  .card_size-small {
+    font-size: 12px;
+    line-height: 17px;
+    width: 44.3vw;
+  }
+}
+
+@media screen and (min-width: 719px) {
+  /* модификатор */
+  .card_size-small {
+    width: 40.973vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 19.2vw;
+    max-width: 330px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* модификатор */
+  .card_bg-black {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    height: max-content;
+  }
+}

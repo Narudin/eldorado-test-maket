@@ -1,0 +1,7 @@
+.image-container::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color:#ccc9c95b
+}

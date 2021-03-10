@@ -1,0 +1,13 @@
+.apps {
+  padding-bottom: 100px;
+}
+
+.apps:first-child {
+  padding-top: 0;
+}
+
+@media screen and (min-width: 719px) {
+  .apps {
+    padding-top: 20px;
+  }
+}
