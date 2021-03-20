@@ -19,9 +19,9 @@ https://www.figma.com/file/GspxVH8DVwrF3KxiJCRrXQ/Eldorado_job?node-id=0%3A1&vie
 Адаптивная верстка (статичная, без JS)
 
 ## Стэк технологий:
-CSS3, HTML5, OOP, BEM, webpack
+CSS3, HTML5, OOP, BEM, gulp
 
 ## Инструкции по запуску:
 - Скачать или склонировать репозиторий
 - в терминале ввести команду npm i
-- ввести комнду npm run build или npm run dev
+- ввести комнду gulp build или gulp serve
